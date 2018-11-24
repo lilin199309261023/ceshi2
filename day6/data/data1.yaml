@@ -1,0 +1,48 @@
+#Search_Data:
+#      search_test_001:
+#        value: 456
+#        expect: [4,5,6]
+#      search_test_002:
+#        value: "你好"
+#        expect: {"value":"你好"}
+
+
+
+#name: '张三'
+#age: '李四'
+#j: "k"
+#k:
+#  ii: "00"
+#  kk: '999'
+
+#- 2
+#- 4
+#- 5
+# -
+#  - p
+#  - l
+#  - i
+#
+#- o
+#      - 1
+#- 9
+
+#布尔
+#data:  True
+#data: true
+#data: TRUE
+
+#锚点 定义:键名  :&imp  引用: <<: * 锚点名  注:引用的键名不能和锚点键名相同,否则会被替换
+data:
+  aaa: "电脑"
+name:
+    ap: "haha"
+ko:
+    ke: 000
+    oo: "uuu"
+
+
+
+
+
+
